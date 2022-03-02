@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodz04-08_GitHup", "Metodz04-08_GitHup\Metodz04-08_GitHup.csproj", "{DE860413-3905-434E-8439-30530CCCBA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE860413-3905-434E-8439-30530CCCBA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE860413-3905-434E-8439-30530CCCBA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE860413-3905-434E-8439-30530CCCBA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE860413-3905-434E-8439-30530CCCBA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {352BAD78-3F87-4840-98D2-4497E597FE93}
+	EndGlobalSection
+EndGlobal
