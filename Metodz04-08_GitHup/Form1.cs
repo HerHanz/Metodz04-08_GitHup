@@ -19,7 +19,10 @@ namespace Metodz04_08_GitHup
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int x = int.Parse(textBox1.Text);
+            int exp = int.Parse(textBox2.Text);
 
+            MessageBox.Show("Mocnina je " + CelaCisla.Mocnina(x, exp));
         }
 
         private void button2_Click(object sender, EventArgs e)
