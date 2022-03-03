@@ -72,7 +72,7 @@ namespace Metodz04_08_GitHup
 
             return jePrvocislo;
         }
-        public static int PocetSudDelitelu(int x)
+        public  int PocetSudDelitelu(int x)
         {
             int pocetSudDelitelu = 0;
             for (int i = 1; i <= x; ++i)

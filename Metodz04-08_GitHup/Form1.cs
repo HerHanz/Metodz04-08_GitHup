@@ -52,7 +52,10 @@ namespace Metodz04_08_GitHup
         private void button5_Click(object sender, EventArgs e)
         {
             int x = int.Parse(textBox6.Text);
-            MessageBox.Show("Pocet sud delitelu je " + CelaCisla.PocetSudDelitelu(x));
+            CelaCisla pocetdel = new CelaCisla();
+            int pocetsuddel = pocetdel.PocetSudDelitelu(x);
+            MessageBox.Show("Pocet sudych delitelu je " + pocetsuddel);
+           
 
 
 
