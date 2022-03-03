@@ -62,34 +62,30 @@ namespace Metodz04_08_GitHup
             return Lichcifra;
 
         }
-        public static bool Prvocislo(int n)
+        public static bool JePrvocislo(int x)
         {
-            bool jePrvocislo = false;
-            int   m = 0, trip = 0;
-            
-            
-            m = n / 2;
-            for (int i = 2; i <= m; i++)
+            bool jePrvocislo = x != 1;
+            for (int delitel = 2; delitel <= Math.Sqrt(x) && jePrvocislo; ++delitel)
             {
-                if (n % i == 0)
+                if (x % delitel == 0) jePrvocislo = false;
+            }
+
+            return jePrvocislo;
+        }
+        public static int PocetSudDelitelu(int x)
+        {
+            int pocetSudDelitelu = 0;
+            for (int i = 1; i <= x; ++i)
+            {
+                if (x % i == 0)
                 {
-                    jePrvocislo = false;
-                   trip = 1;
-                    break;
+                    if (i % 2 == 0) ++pocetSudDelitelu;
                 }
             }
-            if (trip == 0)
-            {
-                jePrvocislo = true;
-            }
-                
 
-
-
-
-            return (jePrvocislo);
+            return pocetSudDelitelu;
         }
-            
+
 
     }
 }

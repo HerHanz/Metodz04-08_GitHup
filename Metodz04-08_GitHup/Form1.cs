@@ -41,6 +41,9 @@ namespace Metodz04_08_GitHup
         private void button4_Click(object sender, EventArgs e)
         {
             int x = int.Parse(textBox5.Text);
+            if (CelaCisla.JePrvocislo(x)) MessageBox.Show("Cislo " + x + "je prvocislo");
+            else MessageBox.Show("Neni to prvocislo");
+
            
 
 
@@ -48,6 +51,11 @@ namespace Metodz04_08_GitHup
 
         private void button5_Click(object sender, EventArgs e)
         {
+            int x = int.Parse(textBox6.Text);
+            MessageBox.Show("Pocet sud delitelu je " + CelaCisla.PocetSudDelitelu(x));
+
+
+
 
         }
     }
